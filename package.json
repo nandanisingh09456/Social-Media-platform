@@ -1,0 +1,13 @@
+{
+  "name": "socialmedia-platform",
+  "private": true,
+  "workspaces": ["backend", "frontend"],
+  "scripts": {
+    "dev": "concurrently \"C:/Users/nanda/AppData/Local/Programs/Python/Python313/python.exe manage.py runserver 8000\" \"npm run dev --workspace frontend\"",
+    "build": "npm run build --workspace frontend",
+    "test": "C:/Users/nanda/AppData/Local/Programs/Python/Python313/python.exe manage.py test social_api"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}

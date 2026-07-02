@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+.env
+.vscode/
+coverage/
+.pytest_cache/
+.DS_Store
